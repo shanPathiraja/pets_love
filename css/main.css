@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+.main-slide {
+  background-image: url(../images/497333.jpg);
+  height: 50rem;
+
+  margin-top: 60px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.main-slide .btn-appoiment a {
+    margin-right: -152px;
+    text-shadow: 0px 0px;
+    width: 500px;
+}
+.main-slide .btn-appoiment {
+    padding-top: 326px;
+    padding-left: 69px;
+    margin-top: -2px;
+    margin-bottom: -140px;
+    width: 500px;
+}
+a div span {
+  font-size: large;
+  font-weight: bolder;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+    sans-serif;
+  font-style: normal;
+}
+.btn-appoiment a div {
+    border-radius: 27px;
+    text-shadow: -1px 4px 9px #060606;
+    -webkit-box-shadow: 0px 0px 21px 9px #ebebeb;
+    box-shadow: 0px 0px 21px 9px #ebebeb;
+    width: 76px;
+}
+.roudIcon {
+    width: 200px;
+    top: 0;
+    height: 200px;
+    background-color: #FF0004;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    right: 0px;
+    left: 0px;
+    -webkit-box-shadow: 0px 0px 32px #070707;
+    box-shadow: 0px 0px 32px #070707;
+}
+
+.btnmakeapp{
+	color: #fff;
+  font-family: 'Roboto Condensed';
+  font-size: 22px;
+  letter-spacing: 8px;
+  line-height: 32px;
+  
+  top: -48px;
+}
+
+.svg-wrapper {
+    height: 101px;
+    margin-right: auto;
+    position: relative;
+    transform: translateY(-50%);
+    width: 221px;
+    padding-top: 792px;
+    padding-left: 0px;
+    margin-top: -472px;
+    border-radius: 52px;
+    margin-left: 59px;
+}
+
+.shape {
+    fill: transparent;
+    stroke-dasharray: 0 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    stroke: red;
+    margin-top: -27px;
+    margin-left: -24px;
+	
+}
+@keyframes draw {
+    0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 40px;
+  }
+  100% {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    stroke-width: 20px;
+  }
+}
+
+
+
+.svg-wrapper:hover .shape {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+    height: auto;
+}
+.service .round-container {
+    width: 20%;
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 5px;
+    text-align: center;
+    height: 27rem;
+    position: inherit;
+    float: left;
+}
+.service {
+    margin-top: -7rem;
+}
+
+
+.service .round-container .service-content {
+    height: 12rem;
+
+}
+.include-footer {
+    display: inline-block;
+}

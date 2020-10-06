@@ -1,0 +1,70 @@
+@charset "utf-8";
+body {
+    background-image: url(../image/910437-1366x768-%5BDesktopNexus.com%5D.jpg);
+    background-size: cover;
+}
+body {
+}
+.login-container {
+    width: 32rem;
+    height: 17rem;
+    margin-top: 8rem;
+    margin-left: 8rem;
+    -webkit-box-shadow: 0px 0px 50px #000000;
+    box-shadow: 0px 0px 50px #000000;
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(0,0,0,0.50) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(0,0,0,0.50) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(0,0,0,0.50) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(0,0,0,0.50) 100%);
+    border-radius: 5px;
+}
+.inner-container form h2 {
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.login-container .inner-container {
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: inset 0px 0px 50px #021A4A;
+    box-shadow: inset 0px 0px 50px #021A4A;
+    border-radius: 10px;
+}
+.login-container .inner-container form {
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    padding-top: 1%;
+}
+form .l-input-group .l-input {
+    width: 99%;
+    height: 81%;
+}
+.inner-container form .l-input-group {
+    width: 90%;
+    height: 2rem;
+    margin-bottom: 17px;
+    -webkit-box-shadow: 0px 0px 9px #2100FC;
+    box-shadow: 0px 0px 9px #2100FC;
+    background-color: #000000;
+}
+.inner-container form .l-input-group-btn {
+    width: 90%;
+    height: 2rem;
+    -webkit-box-shadow: 0px 0px 12px #00FF24;
+    box-shadow: 0px 0px 12px #00FF24;
+}
+form .l-input-group-btn .l-input {
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(270deg,rgba(26,255,0,1.00) 0%,rgba(43,171,4,1.00) 30.05%,rgba(25,162,5,1.00) 64.77%,rgba(0,255,5,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(26,255,0,1.00) 0%,rgba(43,171,4,1.00) 30.05%,rgba(25,162,5,1.00) 64.77%,rgba(0,255,5,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(26,255,0,1.00) 0%,rgba(43,171,4,1.00) 30.05%,rgba(25,162,5,1.00) 64.77%,rgba(0,255,5,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(26,255,0,1.00) 0%,rgba(43,171,4,1.00) 30.05%,rgba(25,162,5,1.00) 64.77%,rgba(0,255,5,1.00) 100%);
+    font-size: x-large;
+    color: #F9F9F9;
+}
